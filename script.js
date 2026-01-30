@@ -44,7 +44,7 @@ input.addEventListener("keydown", function (e) {
     const cmd = input.value.trim();
     input.value = "";
 
-    if (cmd.toLowerCase() === "start" && stage === 0) {
+    if (cmd.toLowerCase() === "erro404" && stage === 0) {
       output.textContent += enigmas[stage].text;
       stage++;
     } 
