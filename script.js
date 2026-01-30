@@ -74,7 +74,7 @@ input.addEventListener("keydown", function (e) {
       }
     } 
     else {
-      output.textContent += `\n> Comando não reconhecido`;
+      output.textContent += `\n> A senha foi alterada, solicite-a novamente.`;
     }
 
     output.scrollTop = output.scrollHeight;
